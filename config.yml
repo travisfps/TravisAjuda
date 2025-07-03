@@ -1,0 +1,39 @@
+menu:
+  titulo: "&8Menu de Ajuda"
+  tamanho: 27
+  itens:
+    ajuda:
+      slot: 13
+      CustomSkull: true
+      URL: "fc271052719ef64079ee8c1498951238a74dac4c27b95640db6fbddc2d6b5b6e"
+      nome: "&fPedir Ajuda"
+      lore:
+        - "&7Clique para enviar sua dúvida"
+      material: PAPER  # Usado se CustomSkull false
+
+painel:
+  titulo: "&8Painel de Dúvidas"
+  tamanho: 27
+  item_duvida:
+    nome: "&f%duvida%"
+    lore:
+      - "&7Clique para responder essa dúvida"
+
+permissoes:
+  staff: "ajuda.staff"
+
+sons:
+  duvida_enviada: "NOTE_PLING"
+  resposta_recebida: "LEVEL_UP"
+
+mensagens:
+  ajuda_cancelada: "&cEnvio de dúvida cancelado."
+  sem_permissao: "&cVocê não tem permissão para isso."
+  digite_duvida: "&eDigite sua dúvida no chat."
+  duvida_enviada: "&f \n&f&lSeuServer &7> &fDúvida enviada com &asucesso! &fAguarde a resposta da Equipe.\n &f"
+  nova_duvida_staff: "&f \n&f&lSeuServer &f> &fNova dúvida de &b%jogador%&f, use &b/ajuda painel\n &f"
+  responder_duvida: "&aResponda a dúvida: &f%duvida%"
+  resposta_enviada: "&aResposta enviada com sucesso."
+  resposta_msg: "&f \n&f&lStyle &7> &eResposta da staff: &f%resposta%\n &f"
+  duvida_em_atendimento: "&cEsta dúvida já está sendo atendida por outro staff."
+  duvida_nao_encontrada: "&cDúvida não encontrada."

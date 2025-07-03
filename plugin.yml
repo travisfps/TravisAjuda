@@ -1,0 +1,12 @@
+name: TravisAjuda
+main: com.travisajuda.ajuda.TravisAjuda
+version: 1.0
+api-version: 1.8
+commands:
+  ajuda:
+    description: Comando para abrir o menu de ajuda
+    usage: /ajuda [painel]
+permissions:
+  ajuda.staff:
+    description: Permissão para usar o painel de ajuda
+    default: op
