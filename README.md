@@ -11,7 +11,7 @@ Plugin leve e funcional para servidores Minecraft, permitindo que jogadores envi
 - Cabeças personalizadas ou materiais customizáveis
 - Sons e mensagens personalizáveis
 - Anti-conflito: só um staff responde por vez
-- Compatível com versões **1.8 até 1.21+**
+- Compatível com versões **1.8.x**
 
 ---
 
